@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web16</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .all{
+            display: block;
+            display: flex;
+            flex-direction: column;
+            width: 100vw;
+            height: 100vh;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .pentagon-top {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 70px auto;
+            width: 0;
+            height: 0;
+            border-right: 140px solid transparent;
+            border-left: 140px solid transparent;
+            border-top: 140px solid transparent;
+            border-bottom: 140px solid violet;
+
+        }
+
+        .pentagon {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 70px auto;
+            width: 240px;
+            height: 0;
+            border-right: 20px solid transparent;
+            border-left: 20px solid transparent;
+            border-bottom: 200px solid transparent;
+            border-top: 140px solid violet;
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="all">
+        <div class="pentagon-top"></div>
+        <div class="pentagon"></div>
+    </div>
+
+</body>
+
+</html>
