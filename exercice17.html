@@ -1,11 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>web17</title>
+    <style>
+        .all{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin: 0;
+            padding: 0;
+        }
+        .hexagon-top {
+            display: flex;
+            align-items: center;
+            width: 180px;
+            justify-content: center;
+            border-right: 100px solid transparent;
+            border-left: 100px solid transparent;
+            border-top: 100px solid transparent;
+            border-bottom: 120px solid greenyellow;
+
+        }
+
+        .hexagon-bottom {
+            display: flex;
+            align-items: center;
+            width: 180px;
+            justify-content: center;
+            border-right: 100px solid transparent;
+            border-left: 100px solid transparent;
+            border-bottom: 100px solid transparent;
+            border-top: 120px solid greenyellow;
+
+        }
+    </style>
 </head>
+
 <body>
-    
+    <div class="all">
+        <div class="hexagon-top"></div>
+        <div class="hexagon-bottom"></div>
+    </div>
+
 </body>
+
 </html>
