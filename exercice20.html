@@ -3,43 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>web19</title>
+    <title>web20</title>
     <style>
-        .arrow{
+        .cross{
             display: flex;
+            flex-direction: column;
             align-items: center;
             justify-content: center;
             position: relative;
-            margin: 80px auto;
-
+            .triangle{
+                top: 0;
+                position: relative;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-top: 150px solid transparent;
+                border-bottom: 150px solid darkslategray;
+                border-right: 150px solid transparent;
+                border-left: 150px solid transparent;
+            }
+            
             .rect{
                 position: relative;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                width: 200px;
-                height: 90px;
-                background-color: darkslategray;
-                border: none;
-            }
-            .triangle{
                 position: relative;
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                border-top: 140px solid transparent;
-                border-bottom: 140px solid transparent;
-                border-right: 140px solid transparent;
-                border-left: 140px solid darkslategray;
-
+                background-color: darkslategray;
+                height: 200px;
+                width: 80px;
             }
         }
     </style>
 </head>
 <body>
-    <div class="arrow">
-        <div class="rect"></div>
+
+    <div class="cross">
         <div class="triangle"></div>
+        <div class="rect"></div>
     </div>
     
 </body>
