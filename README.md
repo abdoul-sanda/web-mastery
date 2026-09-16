@@ -1,7 +1,5 @@
-"# web-mastery" 
-
+*Web Mastery*
 =====================================================================
-170 EXERCICES PRATIQUES HTML/CSS — REPRODUCTION DE FIGURES
 =====================================================================
 
 Objectif : progresser du débutant à l'aisance complète en HTML/CSS en
@@ -236,5 +234,4 @@ NIVEAU 3 — AVANCÉ (transform, transition, animation, compositions)
 170. Tableau de bord complet (sidebar, header, cartes animées)
 
 =====================================================================
-FIN DE LA LISTE — 170 EXERCICES
 =====================================================================
