@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web28</title>
+    <style>
+        .heart {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 0;
+            width: 0;
+            margin: auto;
+
+            .left {
+                position: absolute;
+                bottom: 60px;
+                top: 15%;
+                right: 47%;
+                align-self: center;
+                width: 200px;
+                height: 100px;
+                background-color: red;
+                transform: rotate(45deg);
+                border-top-left-radius: 50%;
+                border-bottom-left-radius: 50%;
+
+
+            }
+
+            .right {
+                position: absolute;
+                top: 10%;
+                align-self: center;
+                bottom: 30px;
+                width: 200px;
+                height: 100px;
+                background-color: red;
+                transform: rotate(-45deg);
+                border-top-right-radius: 50%;
+                border-bottom-right-radius: 50%;
+
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="heart">
+        <div class="left"></div>
+        <div class="right"></div>
+    </div>
+
+</body>
+
+</html>
