@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web48</title>
+    <style>
+        body {
+            box-sizing: border-box;
+            background-color: rgb(19, 19, 19);
+        }
+
+        .container {
+            display: flex;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+
+            .cloud {
+                position: absolute;
+                display: flex;
+                width: 170px;
+                height: 60px;
+                background-color: azure;
+                border-radius: 20px 40px;
+            }
+
+            .cloud1 {
+                top: -20px;
+                position: relative;
+                display: flex;
+                width: 70px;
+                height: 80px;
+                content: "";
+                background-color: azure;
+                border-radius: 70%;
+            }
+            .cloud2 {
+                top: -60px;
+                left: -25px;
+                position: relative;
+                display: flex;
+                width: 100px;
+                height: 100px;
+                content: "";
+                background-color: azure;
+                border-radius: 80%;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="cloud"></div>
+        <div class="cloud1"></div>
+        <div class="cloud2"></div>
+    </div>
+</body>
+
+</html>
