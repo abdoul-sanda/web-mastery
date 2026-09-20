@@ -1,24 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>web51</title>
     <style>
-        .container{
-            position: absolute;
-            top: 50%;
-            left: 50%;
+        body{
             display: flex;
-            align-items: center;
-            justify-content: center;%
+            flex-direction: column;
+            align-content: center;
+            justify-content: center;
+        }
+        .container {
+            width: 15vw;
+            display: grid;
+            height: 30px;
+            grid-template-columns: repeat(4, 1fr);
+            border: 2px solid;
+
+            .black {
+                background-color: black;
+            }
+
+            .white {
+                background-color: white;
+            }
 
         }
     </style>
 </head>
+
 <body>
     <div class="container">
-
+        <div class="white"></div>
+        <div class="black"></div>
+        <div class="white"></div>
+        <div class="black"></div>
+    </div>
+    <div class="container">
+        <div class="black"></div>
+        <div class="white"></div>
+        <div class="black"></div>
+        <div class="white"></div>
+    </div>
+    <div class="container">
+        <div class="white"></div>
+        <div class="black"></div>
+        <div class="white"></div>
+        <div class="black"></div>
+    </div>
+    <div class="container">
+        <div class="black"></div>
+        <div class="white"></div>
+        <div class="black"></div>
+        <div class="white"></div>
     </div>
 </body>
+
 </html>
