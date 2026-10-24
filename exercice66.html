@@ -1,40 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>web66</title>
     <style>
-        .flag{
-            position: absolute;
-            display: flex;
-            align-items: flex-start;
-            justify-content: flex-start;
-            width: 50%;
+        .flag {
+            position: fixed;
+            overflow: hidden;
+            width: 30%;
             height: 40%;
             border: 2px solid;
 
-            .first{
+
+            .content {
                 position: relative;
-                top: 10px;
+                transform: rotate(-25deg);
+                padding: 0;
+                margin: 0;
                 left: 0;
+                right: 0;
+                height: 100vh;
                 display: flex;
-                align-items: center;
-                justify-content: center;
-                width: 30%;
-                height: 40px;
-                background-color: #0392eb;
-                transform: rotate(-30deg);
+                flex-direction: column;
+                align-items: ;
+
+                .first {
+                    position: relative;
+                    margin: 0;
+                    padding: 0;
+                    top: 90;
+                    right: 0;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 1000px;
+                    height: 40px;
+                    background-color: #0392eb;
+                }
+
+                .second {
+                    position: relative;
+                    top: 0;
+                    left: 0;
+                    bottom: 0;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 1500px;
+                    height: 40px;
+                    background-color: yellow;
+                }
+
+                .third {
+                    position: relative;
+                    top: 0;
+                    left: 0;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 2000px;
+                    height: 40px;
+                    background-color: red;
+                }
+
             }
+
+
 
         }
     </style>
 </head>
+
 <body>
     <div class="flag">
-    <div class="first"></div>
-    <div class="second"></div>
-    <div class="third"></div>
+        <div class="content">
+            <div class="first"></div>
+            <div class="second"></div>
+            <div class="third"></div>
+        </div>
     </div>
 </body>
+
 </html>

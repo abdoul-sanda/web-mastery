@@ -1,28 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>web67</title>
     <style>
-        body{
+        * {
             padding: 0;
             margin: 0;
-            background-color: green;
+            box-sizing: border-box;
+        }
 
-            .field{
-                margin: 20px auto;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                width: 98%;
-                height: 98vh;
-                border: 2px solid white;
-            }
+        body {
+            background-color: green;
+            justify-content: center;
+           
+        }
+
+        .field {
+            position: absolute;
+            margin: 200px auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 72vw;
+            height: 450px;
+            border: 2px solid white;
+        }
+
+        .circle {
+            position: relative;
+            transform: translate(-50%, 50%);
+            justify-content: center;
+            align-items: center;
+            top: 50%;
+            left: 50%;
+            width: 180px;
+            height: 180px;
+            border: 2px solid white;
+            border-radius: 100%;
+
         }
     </style>
 </head>
+
 <body>
     <div class="field"></div>
+    <div class="circle"></div>
+
 </body>
+
 </html>
